@@ -92,10 +92,10 @@ I cover more ways to save objects to a file in my article on
 
 ### Adding properties
 
-You can still add new properties to your `PSCustomObject` with `Add-Member`.
+You can still add new properties to your 'PSCustomObject' with 'Add-Member'.
 
 ```powershell
-$myObject | Add-Member -MemberType NoteProperty -Name `ID` -Value 'KevinMarquette'
+$myObject | Add-Member -MemberType NoteProperty -Name 'ID' -Value 'KevinMarquette'
 
 $myObject.ID
 ```
